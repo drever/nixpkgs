@@ -458,6 +458,8 @@ in {
 
   async_generator = callPackage ../development/python-modules/async_generator { };
 
+  asyncache = callPackage ../development/python-modules/asyncache { };
+
   asyncio-dgram = callPackage ../development/python-modules/asyncio-dgram { };
 
   asyncio-throttle = callPackage ../development/python-modules/asyncio-throttle { };
